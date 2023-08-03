@@ -4,6 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Web com Spring Boot, Hibernate e JPA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+        }
+
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 5px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h1>Projeto Web com Spring Boot, Hibernate e JPA</h1>
@@ -14,8 +51,8 @@
         <li>Spring Boot</li>
         <li>Hibernate</li>
         <li>JPA (Java Persistence API)</li>
-        <li>Thymeleaf (opcional - para renderização de páginas HTML)</li>
-        <li>Banco de dados (por exemplo, MySQL, PostgreSQL, H2)</li>
+        <li>Thymeleaf <span style="font-size: 0.8em;">(opcional - para renderização de páginas HTML)</span></li>
+        <li>Banco de dados <span style="font-size: 0.8em;">(por exemplo, MySQL, PostgreSQL, H2)</span></li>
     </ul>
 
     <h2>Configuração do ambiente</h2>
@@ -67,7 +104,7 @@
     <p>
         Agora você pode executar o aplicativo Spring Boot usando o seguinte comando:
     </p>
-    <pre>mvn spring-boot:run</pre>
+    <pre><code>mvn spring-boot:run</code></pre>
     <p>
         O aplicativo será iniciado e estará acessível em <a href="http://localhost:8080" target="_blank">http://localhost:8080</a>.
     </p>
